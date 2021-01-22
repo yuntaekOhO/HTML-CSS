@@ -1,1 +1,4 @@
-위 코드는 인포앤북의 HTML/CSS 입문 예제중심(황재호) 책에 나온 1장부터 4장까지의 예제입니다.
+ch.1 (ex1~) - Introduce HTML
+ch.2 (ex2~) - Basic tags
+ch.3 (ex3~) - form & table
+ch.4 (ex4~) - CSS basic
