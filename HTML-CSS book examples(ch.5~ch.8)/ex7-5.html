@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+	margin:0;
+	paddin:0;
+	}
+div, span {
+	border: solid 1px black;
+	background-color:yellow;
+	}
+#a {
+	width:100px;
+	height:100px;
+	margin:20px;
+	}
+#b {
+	display:block;
+	width:100px;
+	height:100px;
+	margin:20px;
+	}
+#c {
+	display:inline-block;
+	width:100px;
+	height:100px;
+	margin:20px;
+	}
+</style>
+</head>
+<body>
+	<h3>인라인과 블록</h3>
+	<p>
+		글자1 <span id="a">요소 A</span>글자2	<!-- span의 기본 display 속성은 inline이다.
+												상하 margin, width, height 적용되지 않는다.-->
+			
+			<span id="b">요소 B</span>글자3	<!-- block은 margin, width, height 적용 된다.-->
+			
+			<span id="c">요소 C</span>글자4	<!-- inline-block 속성은
+												크기 관련 속성이 적용되면서 수평 정렬이 된다.-->
+	</p>
+</body>
+</html>
